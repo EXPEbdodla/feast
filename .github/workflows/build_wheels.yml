@@ -68,9 +68,11 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Build UI
         run: make build-ui
-      - name: Build wheels
+      - name: Verify Repo Status
         run: |
           git status --porcelain
+      - name: Build wheels
+        run: |
           python -m pip install build
           python -m build --wheel --outdir wheelhouse/
       - uses: actions/upload-artifact@v2
