@@ -66,8 +66,8 @@ jobs:
         with:
           node-version: '17.x'
           registry-url: 'https://registry.npmjs.org'
-      - name: Build UI
-        run: make build-ui
+      # - name: Build UI
+      #   run: make build-ui
       - name: Verify Repo Status
         run: |
           git status --porcelain
