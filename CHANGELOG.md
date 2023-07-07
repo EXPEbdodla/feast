@@ -1,5 +1,16 @@
 # Changelog
 
+# 0.3.0 (2023-07-07)
+
+### Bug Fixes
+
+    * Update README.md (509c007)
+
+### Features
+
+    * Update README.md (f8fb8e0)
+
+
 # [0.31.0](https://github.com/feast-dev/feast/compare/v0.30.0...v0.31.0) (2023-04-21)
 
 
